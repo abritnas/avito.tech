@@ -12,4 +12,4 @@ python3 -m venv selenium_env
 source selenium_env/bin/activate
 Чтобы деактивировать окружение надо выполнить команды: 
 deactivate
-Далее необходимо ввести команды из текстового файла avito.tech_acti.txt
+Далее необходимо ввести команды из текстового файла avito.tech_automative.txt
