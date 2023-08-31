@@ -1,0 +1,10 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+browser = webdriver.Chrome()
+link = "https://www.avito.ru/nikel/knigi_i_zhurnaly/domain-driven_design_distilled_vaughn_vernon_2639542363"
+browser.get(link)
+afav = browser.find_element(By.CLASS_NAME,"style-header-add-favorite-M7nA2")
+webdriver.ActionChains(browser).move_to_element(afav).click(afav).perform()
+browser.quit()
+exit()
+
